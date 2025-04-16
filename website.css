@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+main{
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 20px;
+}
+.main2{
+    flex: 1;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+.main2 ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    justify-content:center;
+    font-weight: 700;
+    font-size: 15px;
+}
+.main3{
+    display: grid;
+}
