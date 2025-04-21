@@ -1,32 +1,46 @@
-body{
+*{
     margin: 0px;
-    background-color: white;
-}
-main{
-    display: flex;
-    background-color: white;
-    align-items: center;
-}
-.main1{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    font-size: 20px;
 }
 .main2{
-    flex: 1;
     display: flex;
-    justify-content:right;
-    align-items: center;
+    gap: 40px;
 }
-.main2 ul{
-    display: flex;
-    gap: 10px;
+.main2 li{
     list-style-type: none;
-    justify-content:center;
-    font-weight: 700;
-    font-size: 15px;
 }
 .main3{
-    display: grid;
+    display: flex;
+}
+.main3-left{
+    flex: 2;
+}
+.main3-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.main3-right img{
+    max-width: 100%;
+    height: auto;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+}
+.four div{
+    flex: 1;
+}
+.five{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.five div button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
