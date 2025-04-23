@@ -1,12 +1,26 @@
 *{
     margin: 0px;
 }
-.main2{
-    display: flex;
-    gap: 40px;
+header{
+    width: 100%;
+    background-color: rgba(23, 23, 23,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0;
 }
-.main2 li{
-    list-style-type: none;
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: var(--font-size-14);
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255,0.719);
+    font-family: Tahoma;
 }
 .main3{
     display: flex;
