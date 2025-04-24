@@ -5,6 +5,6 @@ const newFunction =async()=>{
         console.log(products);
     }
     catch(err){
-            console.log(err)
-        };
+            console.log('Error frtching user',err);
+        }
 }
